@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://card/gui_3d.gd" type="Script" id=1]
+[ext_resource path="res://firasans-dynamicfont.tres" type="DynamicFont" id=2]
 
 [sub_resource type="QuadMesh" id=1]
 size = Vector2( 3, 2 )
@@ -40,6 +41,7 @@ anchor_bottom = 1.0
 margin_right = 256.0
 margin_bottom = 256.0
 rect_scale = Vector2( 2, 2 )
+custom_fonts/normal_font = ExtResource( 2 )
 text = "testing."
 scroll_active = false
 

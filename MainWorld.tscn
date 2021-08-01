@@ -20,3 +20,6 @@ shadow_enabled = true
 
 [node name="CreatureInstance" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.43113, -0.932054, 3.00285 )
+
+[node name="CreatureInstance2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20573, 1.28966, 0.0170574 )
