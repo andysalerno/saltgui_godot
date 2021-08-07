@@ -9,12 +9,12 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Spatial",
+"base": "",
 "class": "CardInstance",
 "language": "NativeScript",
 "path": "res://card/card_instance.gdns"
 }, {
-"base": "Node",
+"base": "",
 "class": "HelloWorld",
 "language": "NativeScript",
 "path": "res://networking/agent.gdns"
@@ -26,7 +26,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="DummyProj"
+config/name="saltgui_godot"
 run/main_scene="res://MainWorld.tscn"
 config/icon="res://icon.png"
 

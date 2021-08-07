@@ -22,4 +22,4 @@ shadow_enabled = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4215, 1.55049, -4.49639 )
 
 [node name="PlayerHand" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.39896, -1.68903, -4.14654 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.39896, -1.68903, -3.2564 )
