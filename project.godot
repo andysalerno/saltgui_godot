@@ -10,11 +10,16 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "",
+"class": "BoardSlot",
+"language": "NativeScript",
+"path": "res://board/BoardSlot.gdns"
+}, {
+"base": "",
 "class": "CardInstance",
 "language": "NativeScript",
 "path": "res://card/card_instance.gdns"
 }, {
-"base": "Spatial",
+"base": "",
 "class": "Hand",
 "language": "NativeScript",
 "path": "res://hand/hand.gdns"
@@ -25,6 +30,7 @@ _global_script_classes=[ {
 "path": "res://networking/agent.gdns"
 } ]
 _global_script_class_icons={
+"BoardSlot": "",
 "CardInstance": "",
 "Hand": "",
 "HelloWorld": ""
