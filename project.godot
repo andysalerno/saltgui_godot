@@ -9,12 +9,12 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "",
+"base": "Spatial",
 "class": "BoardSlot",
 "language": "NativeScript",
 "path": "res://board/BoardSlot.gdns"
 }, {
-"base": "",
+"base": "Spatial",
 "class": "CardInstance",
 "language": "NativeScript",
 "path": "res://card/card_instance.gdns"
