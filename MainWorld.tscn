@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://networking/agent.tres" type="GDNativeLibrary" id=1]
 [ext_resource path="res://board/Board.tscn" type="PackedScene" id=2]
 [ext_resource path="res://hand/player_hand.tscn" type="PackedScene" id=3]
+[ext_resource path="res://end-turn-button/end_turn_button.tscn" type="PackedScene" id=4]
 
 [sub_resource type="NativeScript" id=1]
 class_name = "World"
@@ -24,3 +25,6 @@ shadow_enabled = true
 
 [node name="PlayerHand" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.52291, -2.85774, -4.5 )
+
+[node name="EndTurnButton" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44539, 0.17078, -4.64666 )
