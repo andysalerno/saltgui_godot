@@ -1,7 +1,9 @@
 [gd_resource type="NativeScript" load_steps=2 format=2]
 
 [sub_resource type="GDNativeLibrary" id=1]
+entry/OSX.64 = "res://../saltengine_gui/target/debug/libsaltgui.dylib"
 entry/Windows.64 = "res://links/saltgui.dll"
+dependency/OSX.64 = [  ]
 dependency/Windows.64 = [  ]
 
 [resource]

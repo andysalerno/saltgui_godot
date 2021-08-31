@@ -14,7 +14,7 @@ _global_script_classes=[ {
 "language": "NativeScript",
 "path": "res://board/BoardSlot.gdns"
 }, {
-"base": "Spatial",
+"base": "",
 "class": "CardInstance",
 "language": "NativeScript",
 "path": "res://card/card_instance.gdns"
