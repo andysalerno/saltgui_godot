@@ -16,7 +16,7 @@ mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
 
 [node name="BoardSlot1" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -3.73646, 1.82638, 1.00343 )
+transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -3.79955, 1.92733, 1.00343 )
 
 [node name="BoardSlot2" parent="." instance=ExtResource( 1 )]
 transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -2.20236, 1.82882, 1.00343 )

@@ -1,0 +1,11 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[sub_resource type="GDNativeLibrary" id=1]
+entry/OSX.64 = "res://../saltengine_gui/target/debug/libsaltgui.dylib"
+dependency/OSX.64 = [  ]
+
+[resource]
+resource_name = "TextBox"
+class_name = "TextBox"
+library = SubResource( 1 )
+script_class_name = "TextBox"
