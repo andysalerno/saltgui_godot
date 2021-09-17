@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://board/BoardSlot.gdns" type="Script" id=1]
-[ext_resource path="res://board/text_box.tscn" type="PackedScene" id=2]
+[ext_resource path="res://textbox/text_box.tscn" type="PackedScene" id=2]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 0.75, 0.75, 0.025 )
@@ -24,4 +24,4 @@ mesh = SubResource( 2 )
 material/0 = null
 
 [node name="TextBox" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0499896 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0550797 )
