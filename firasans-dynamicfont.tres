@@ -3,5 +3,5 @@
 [ext_resource path="res://firasans-dynamicfontdata.tres" type="DynamicFontData" id=1]
 
 [resource]
-size = 18
+size = 24
 font_data = ExtResource( 1 )
