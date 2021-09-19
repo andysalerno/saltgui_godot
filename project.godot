@@ -29,7 +29,7 @@ _global_script_classes=[ {
 "language": "NativeScript",
 "path": "res://hand/hand.gdns"
 }, {
-"base": "",
+"base": "Control",
 "class": "ManaCounter",
 "language": "NativeScript",
 "path": "res://guid_mana_counter/mana_counter.gdns"
