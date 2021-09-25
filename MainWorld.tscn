@@ -16,6 +16,7 @@ script_class_name = "World"
 script = SubResource( 1 )
 
 [node name="Camera" type="Camera" parent="."]
+size = 8.0
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0721627, -5.8323 )
