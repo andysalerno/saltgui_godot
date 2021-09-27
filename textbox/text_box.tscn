@@ -4,7 +4,7 @@
 [ext_resource path="res://firasans-dynamicfontdata.tres" type="DynamicFontData" id=2]
 
 [sub_resource type="DynamicFont" id=1]
-size = 48
+size = 12
 font_data = ExtResource( 2 )
 
 [sub_resource type="QuadMesh" id=2]
@@ -49,3 +49,7 @@ scroll_active = false
 [node name="Quad" type="MeshInstance" parent="."]
 mesh = SubResource( 2 )
 material/0 = SubResource( 4 )
+
+[node name="EditorLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.04108 )
+editor_only = true

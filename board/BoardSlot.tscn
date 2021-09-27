@@ -25,3 +25,9 @@ material/0 = null
 
 [node name="TextBox" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0550797 )
+visible = false
+
+[node name="EditorOnlyLights" type="Node" parent="."]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="EditorOnlyLights"]
+editor_only = true

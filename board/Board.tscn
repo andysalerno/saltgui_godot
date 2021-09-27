@@ -16,73 +16,78 @@ mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
 
 [node name="BoardSlot1" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -4.273, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.273, 2.3, 1.003 )
 
 [node name="BoardSlot2" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -2.439, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.439, 2.3, 1.003 )
 
 [node name="BoardSlot3" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -0.744, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.744, 2.3, 1.003 )
 
 [node name="BoardSlot4" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.948, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.948, 2.3, 1.003 )
 
 [node name="BoardSlot5" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 2.511, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.511, 2.3, 1.003 )
 
 [node name="BoardSlot6" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 4.158, 2.3, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.158, 2.3, 1.003 )
 
 [node name="BoardSlot7" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -4.28, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.28, 1, 1.003 )
 
 [node name="BoardSlot8" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -2.457, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.457, 1, 1.003 )
 
 [node name="BoardSlot9" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -0.766, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.766, 1, 1.003 )
 
 [node name="BoardSlot10" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.953, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.953, 1, 1.003 )
 
 [node name="BoardSlot11" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 2.524, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.524, 1, 1.003 )
 
 [node name="BoardSlot12" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 4.121, 1, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.121, 1, 1.003 )
 
 [node name="BoardSlot13" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -4.264, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.264, -0.5, 1.003 )
 
 [node name="BoardSlot14" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -2.505, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.505, -0.5, 1.003 )
 
 [node name="BoardSlot15" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -0.779, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.779, -0.5, 1.003 )
 
 [node name="BoardSlot16" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.973, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.973, -0.5, 1.003 )
 
 [node name="BoardSlot17" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 2.554, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.554, -0.5, 1.003 )
 
 [node name="BoardSlot18" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 4.07, -0.5, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.07, -0.5, 1.003 )
 
 [node name="BoardSlot19" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -4.26, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.26, -1.8, 1.003 )
 
 [node name="BoardSlot20" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -0.785, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.785, -1.8, 1.003 )
 
 [node name="BoardSlot21" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -2.516, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.516, -1.8, 1.003 )
 
 [node name="BoardSlot22" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.959, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.959, -1.8, 1.003 )
 
 [node name="BoardSlot23" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 2.54, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.54, -1.8, 1.003 )
 
 [node name="BoardSlot24" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 4.057, -1.8, 1.003 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.057, -1.8, 1.003 )
+
+[node name="EditorOnlyLights" type="Node" parent="."]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="EditorOnlyLights"]
+editor_only = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://networking/agent.tres" type="GDNativeLibrary" id=1]
 [ext_resource path="res://board/Board.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://end-turn-button/end_turn_button.tscn" type="PackedScene" id=4]
 [ext_resource path="res://guid_mana_counter/mana_counter.tscn" type="PackedScene" id=5]
 [ext_resource path="res://guid_mana_counter/mana_counter.gdns" type="Script" id=6]
+[ext_resource path="res://card/card_board_instance/card_board_instance.tscn" type="PackedScene" id=7]
 
 [sub_resource type="NativeScript" id=1]
 class_name = "World"
@@ -34,3 +35,10 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44539, 0.17078, -4.64666 )
 
 [node name="ManaCounter" parent="." instance=ExtResource( 5 )]
 script = ExtResource( 6 )
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05424, -3.52136 )
+light_color = Color( 0.921569, 0.803922, 0.498039, 1 )
+
+[node name="Spatial" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.747013, 1.06386, -4.78073 )
