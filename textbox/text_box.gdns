@@ -2,7 +2,9 @@
 
 [sub_resource type="GDNativeLibrary" id=1]
 entry/Windows.64 = "res://links/saltgui.dll"
+entry/OSX.64 = "res://../saltengine_gui/target/debug/libsaltgui.dylib"
 dependency/Windows.64 = [  ]
+dependency/OSX.64 = [  ]
 
 [resource]
 resource_name = "TextBox"

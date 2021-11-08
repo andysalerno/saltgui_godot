@@ -28,7 +28,7 @@ light_bake_mode = 0
 shadow_enabled = true
 
 [node name="PlayerHand" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.52291, -2.85774, -4.5 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.52291, -3.59351, -4.81038 )
 
 [node name="EndTurnButton" parent="." instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44539, 0.17078, -4.64666 )

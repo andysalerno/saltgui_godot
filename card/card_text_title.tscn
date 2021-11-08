@@ -6,6 +6,7 @@
 size = 12
 outline_size = 2
 outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
 font_data = ExtResource( 1 )
 
 [sub_resource type="QuadMesh" id=2]
@@ -24,7 +25,11 @@ albedo_texture = SubResource( 3 )
 
 [node name="Viewport" type="Viewport" parent="."]
 size = Vector2( 256, 256 )
+msaa = 2
+fxaa = true
+sharpen_intensity = 0.5
 hdr = false
+disable_3d = true
 usage = 0
 render_target_v_flip = true
 render_target_update_mode = 3
