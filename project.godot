@@ -19,7 +19,7 @@ _global_script_classes=[ {
 "language": "NativeScript",
 "path": "res://card/card_board_instance/card_board_instance.gdns"
 }, {
-"base": "",
+"base": "Spatial",
 "class": "CardInstance",
 "language": "NativeScript",
 "path": "res://card/card_instance.gdns"
@@ -29,7 +29,7 @@ _global_script_classes=[ {
 "language": "NativeScript",
 "path": "res://end-turn-button/end_turn_button.gdns"
 }, {
-"base": "",
+"base": "Spatial",
 "class": "Hand",
 "language": "NativeScript",
 "path": "res://hand/hand.gdns"
